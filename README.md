@@ -16,7 +16,9 @@ Note: app.py must be in the same directory as map.json
 
 ### Example
 The following is an example of what an avatar may look like:
+<br />
 <img src="sample.png" alt="Example Avatar" width="200px" height="200px">
+<br />
 It was generated with the string "sample" using the following command:
 ```
 $ python3 app.py sample sample.png
