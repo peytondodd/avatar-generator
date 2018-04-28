@@ -10,7 +10,7 @@ Python 3 and a working installation of the *pillow* module. Note: I've only test
 ### Installation / Usage
 To use simply download *app.py* and run from the command line like this:
 ```
-	$ python3 app.py <string> <output file> 
+$ python3 app.py <string> <output file> 
 ```
 
 ## License
