@@ -103,21 +103,17 @@ def save(filename):
     cropped.save('./{}.png'.format(filename))
 
 # Main functionality
-def main(i):
-    # if len(sys.argv) < 2:
-    #     print("Usage: gavpls <string> <filename:optional>")
-    #     return
-    # else:
-    #     rawstring = sys.argv[1]
-    #     filename = sys.argv[2] if len(sys.argv) > 2 else "output"
-    #     filename = filename[:filename.index(".")] if "." in filename else filename
-    rawstring = ''.join([string.ascii_letters[rand(0, len(string.ascii_letters)-1)] for i in range(8)])
-    print(rawstring)
-    filename = str(i)
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: gavpls <string> <filename:optional>")
+        return
+    else:
+        rawstring = sys.argv[1]
+        filename = sys.argv[2] if len(sys.argv) > 2 else "output"
+        filename = filename[:filename.index(".")] if "." in filename else filename
     avatar = generate_avatar(rawstring)
     render(avatar)
     save(filename)
 
 if __name__ == "__main__":
-    for i in range(500):
-        main(i)
+    main()
