@@ -13,5 +13,13 @@ To use simply download *app.py* and run from the command line like this:
 $ python3 app.py <string> <output file> 
 ```
 
+### Example
+This example was created with the following command:
+```
+$ python3 app.py sample sample.png
+```
+The following is what was produced using the string "sample".
+![Example Image](sample.png)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
