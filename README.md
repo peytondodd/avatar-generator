@@ -12,14 +12,15 @@ To use simply download *app.py* and run from the command line like this:
 ```
 $ python3 app.py <string> <output file> 
 ```
+Note: app.py must be in the same directory as map.json
 
 ### Example
-This example was created with the following command:
+The following is an example of what an avatar may look like:
+![Example Image](sample.png)
+It was generated with the string "sample" using the following command:
 ```
 $ python3 app.py sample sample.png
 ```
-The following is what was produced using the string "sample".
-![Example Image](sample.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
